@@ -1,15 +1,16 @@
 # Pyhton-Basics
 
 
-Comments
-# This is a one-line Python comment - code blocks are so useful!
+# Comments
+(#) This is a one-line Python comment - code blocks are so useful!
 """This type of comment is used to document the purpose of functions and classes."""
 Declaration/Initialization
-# Remember values, not variables, have data types.
-# A variable can be reassigned to contain a different data type.
+(#) Remember values, not variables, have data types.
+(#) A variable can be reassigned to contain a different data type.
 answer = 42
 answer = "The answer is 42."
-Data Types
+
+# Data Types
 boolean = True
 number = 1.1
 string = "Strings can be declared with single or double quotes."
@@ -19,21 +20,22 @@ dictionary = {'one': 1, 'two': 2, 'three': 3}
 variable_with_zero_data = None
 Simple Logging
 print "Printed!"
-Conditionals
+
+# Conditionals
 if cake == "delicious":
     return "Yes please!"
 elif cake == "okay":
     return "I'll have a small piece."
 else:
     return "No, thank you."
-Loops
+# Loops
 for item in list:
     print item
 
 while (total < max_val):
     total += values[i]
     i += 2
-Functions
+# Functions
 def divide(dividend, divisor):
     quotient = dividend / divisor
     remainder = dividend % divisor
@@ -42,7 +44,8 @@ def divide(dividend, divisor):
 def calculate_stuff(x, y):
     (q, r) = divide(x,y)
     print q, r
-Classes
+
+# Classes
 class Person(object):
     def __init__(self, name, age):
         self.name = name
